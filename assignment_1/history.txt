@@ -1,0 +1,270 @@
+    1  ls
+    2  ls.
+    3  ls..
+    4  manls
+    5  ls .
+    6  verberi[1]
+    7  cd
+    8  verberi@gw.cita.utoronto.ca : ~ > passwd
+    9  ssh verberi@gw.cita.utoronto.ca/cita/local/bin/passwd
+   10  ssh verberi@gw.cita.utoronto.ca
+   11  ssh verberi@gw.cita.utoronto.ca /cita/local/bin/passwd
+   12  pwd/mnt
+   13  cd
+   14  cd/home/verberi
+   15  git config
+   16  git config --list
+   17  git config -- list
+   18  pwd
+   19  dir *rep*
+   20  git config --global user.name "Fondzenyuy"
+   21  git config --global user.email fon.verberi@mail.utoronto.ca
+   22  config --list
+   23  cd ~
+   24  dir
+   25  git add gau
+   26  mkdir -p repos/gauss2d.git
+   27  cd repos/gauss2d.git
+   28  git init --bare
+   29  git add gauss2d.cc Makefile plot.py .gitignore
+   30  git commit
+   31  git status
+   32  git remote add origin /home/verberi/re
+   33  dir
+   34  cd /home/verberi/repos
+   35  pwd
+   36  dir
+   37  pu
+   38  git push --set-upstream origin master
+   39  vim gauss2d.cc
+   40  git status
+   41  git diff
+   42  github desktop O.O
+   43  ls
+   44  ls - la
+   45  ls -ld
+   46  cd
+   47  cp
+   48  rm
+   49  mkdir CTA200H
+   50  ls CTA*
+   51  print "Hello world"
+   52  cd /mnt/raid-lustre
+   53  cd /mnt/scratch-lustre
+   54  cd/whoami
+   55  cd/verberi
+   56  cd ~cta200/
+   57  ls-l
+   58  pwd
+   59  find -name '*auss*'
+   60  /
+   61  cd/home/verberi
+   62  cp -r -cta/200/Research/gauss2d .
+   63  cd gauss2d/
+   64  cd gauss2d/mnt/scratch-lustre/verberi/gauss2d
+   65  cp -r -cta200/Research/gauss2d.
+   66  ls
+   67  cd /mnt/scratch-lustre/verberi/
+   68  cd gauss2d/
+   69  cd /github intro
+   70  mkdir -p repos/CTA200
+   71  git remote add origin https://github.com/Fondzenyuy/CTA200.git
+   72  cd <path of the directory>
+   73  cd<path of the directory>
+   74  mkdir<assignment_1>
+   75  cd "c:\projects\git"
+   76  mkdir assignment_1
+   77  git init assignment_1
+   78  cd assignment_1
+   79  ls -al
+   80  git status
+   81  vim assignment_1.cc
+   82  git clone https://fon.verberi@mail.utoronto.ca/Fondzenyuy/myproject.git CTA200
+   83  git status
+   84  cd
+   85  git remote add origin https://github.com/Fondzenyuy/CTA200.git
+   86  git remote -v
+   87  cd
+   88  git init
+   89  cd
+   90  git status
+   91  git remote add origin https://github.com/Fondzenyuy/CTA200.git
+   92  git remote -v
+   93  cd assignment_1/
+   94  cd /assignment_1
+   95  git add <assignment_1>
+   96  ls
+   97  cat assignment_1.cc 
+   98  pwd
+   99  ll
+  100  ls -la
+  101  ls
+  102  ls -la
+  103  cd ..
+  104  pwd
+  105  cd assignment_1/
+  106  cd ..
+  107  cd assignment_1/
+  108  ls -la
+  109  cd .git
+  110  ls
+  111  cd ..
+  112  git status
+  113  rm assignment_1.cc 
+  114  ls -la
+  115  git status
+  116  vim README.md
+  117  ls
+  118  man mv
+  119  mv LICENSE.md LICENSE
+  120  ls
+  121  git status
+  122  git add LICENSE
+  123  git status
+  124  git commit
+  125  git status
+  126  git log
+  127  vim README.md
+  128  ls
+  129  git add README.md
+  130  git commit 
+  131  ls
+  132  git log
+  133  cd ..
+  134  lsd
+  135  ls
+  136  mv assignment_1/ a1-repo
+  137  ls
+  138  cd a1-repo/
+  139  ls
+  140  ls -la
+  141  mkdir assignment_1
+  142  ls
+  143  ls -la
+  144  ls ..
+  145  cd ..
+  146  ls 
+  147  ls CTA200
+  148  cd CTA200
+  149  ls
+  150  ls la
+  151  ls -la
+  152  git remote -v
+  153  cd ../a1-repo/
+  154  git remote -v
+  155  ls
+  156  ls -la
+  157  git remote -v
+  158  cd ..
+  159  ls
+  160  ls CTA200H
+  161  cd .. CTA200H
+  162  ls -la
+  163  ls
+  164  cd ..
+  165  ls
+  166  cd 
+  167  ls
+  168  cd CTA200
+  169  ls
+  170  cd ..
+  171  rm CTA200
+  172  rm CTA200 -r
+  173  rm CTA200 -rf
+  174  ls
+  175  cd a1-repo/
+  176  git remote -v
+  177  git remote add origin https://github.com/Fondzenyuy/CTA200.git
+  178  git remote -v
+  179  ls
+  180  cd ..
+  181  ls
+  182  mkdir temp
+  183  cd temp/
+  184  git clone https://github.com/CITA/CTA200H.git
+  185  ls
+  186  ls -la
+  187  cd CTA200H/
+  188  ls
+  189  git remote -v
+  190* make program
+  191  pwd
+  192  cd ../..
+  193  ls
+  194  cd a1-repo/assignment_1/
+  195  ls
+  196  vim Makefile
+  197  ls
+  198  make 
+  199  vim Makefile 
+  200  make
+  201  vim Makefile 
+  202  make
+  203  make default
+  204  cat Makefile 
+  205  rm Makefile 
+  206  vim Makefile
+  207  make all
+  208  vim Makefile 
+  209  make
+  210  vim Makefile 
+  211  make
+  212  vim Makefile 
+  213  make
+  214  vim Makefile 
+  215  make
+  216  ls
+  217  ./prog 
+  218  cat main.
+  219  cat main.c
+  220  ls
+  221  make clean
+  222  ls
+  223  git add Makefile average.c average.h main.c
+  224  git status
+  225  git commit -m "added make file and average.c,h, main.c"
+  226  git log
+  227  git push
+  228  git remote -v
+  229* 
+  230  git push
+  231  git remote
+  232  git remote -v
+  233  git log
+  234  git remote add origin http://github.com/Fondzenyuy/CTA200.git
+  235  git remote rm origi
+  236  git remote rm origin
+  237  git remote add origin http://github.com/Fondzenyuy/CTA200.git
+  238  git remote -v
+  239  git push
+  240  git remote rm origin
+  241  git remote add origin https://github.com/Fondzenyuy/CTA200.git
+  242  git push
+  243  git -v
+  244  git --version
+  245  apt
+  246  sudo apt install git
+  247  apt install git
+  248  apt-get install git
+  249  git remote rm origin
+  250  git remote add origin git@github.com:Fondzenyuy/CTA200.git
+  251  git push
+  252  git remote rm origin
+  253  git remote add https://github.com/Fondzenyuy/CTA200.git
+  254  git remote add origin https://github.com/Fondzenyuy/CTA200.git
+  255  git push
+  256  git remote set-url origin https://Fondzenyuy@github.com/Fondzenyuy/CTA200.git
+  257  git push
+  258  git status
+  259  ls
+  260  git status
+  261  git log
+  262  git fetch
+  263  git remote -v
+  264  git push
+  265  git pull
+  266  git push -u origin main
+  267  git status
+  268  git push -u origin master
+  269  history
+  270  history > history.txt 
