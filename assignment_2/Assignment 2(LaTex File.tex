@@ -1,0 +1,86 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{0.5em}
+
+
+\title{CTA200 2021 Assignment 2}
+\author{TonyLouis Verberi Fondzenyuy}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Question 1}
+
+\begin{figure} 
+  \includegraphics[width=\textwidth]{image_Q1.png}
+  \caption{Question 1}
+  
+\end{figure}
+
+
+\subsection*{Methods}
+
+I defined two functions for the respective numerical derivative methods using python, and then created a function to determine the error between the numerical and analytical ways of finding the derivative. To plot the error versus step-size for the two methods,i iterated through different values of stepsize \(h\) (within the range of valid values for h as given in prompt), and plotted the values on a loglog plot using the \code{matplotlib} Python module.
+
+\subsection*{Analysis}
+
+From the plot of derivative versus step size, it can be seen that both methods work well(give good/accurate approximations) for small values of step size. Moreover,using the plot for the error for the derivative methods shows that both methods are inaccurate for high values of step size. However, method 2 is more accurate than method 1 for small values of step size. The slope (for loglog plot)possibly represents the uncertainty for each method.
+
+\newpage
+
+\section*{Question 2}
+
+\subsection*{Methods}
+I developed function that returns a 2d array of the convergent/divergent set for plotting. The function consisted of a for loop which defined a complex equation. To verify for bound/unbound area, I did a divergence check whereby the size of the complex equation was set to always be less than the argument $(div_check)$.
+
+\subsection*{Analysis}
+
+I observed that the core region is bounded upon iterating the function, and it diverges and becomes unbouded as we move outwards. 
+
+\newpage
+
+\begin{figure} 
+  \includegraphics[width=\textwidth]{image_Q2a.png}
+  \includegraphics[width=\textwidth]{image_Q2b.png}
+  \caption{Question 2}
+  
+\end{figure}
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{image_Q2c.png}
+    \caption{Question 2(Color-Viridis)}
+    
+    
+\end{figure}
+
+
+\section*{Question 3}
+
+\section*{Methods}
+
+Using scipy library,I developed a function to solve the ODE. Moreover,a function was created (using numpy to generate some data for time axis). Lastly, a plot of population versus time was made whereby the pattern of susceptible,infected and recovered cases could be seen (as defined by the equations for the ODE which were earlier solved by scipy). 
+
+\section*{Analysis}
+
+In all the 4 illustrations for the SIR model,it can be seen that there was a sharp drop in cases of susceptible people within a short period of time and a sharp increase in number of infected cases. This shows a pattern of an infectious disease. Moreover, the recovery rate is slower than the infection rate.
+
+\section*{Figures/Results}
+
+\begin{figure} 
+  \includegraphics[width=\textwidth]{SIR_model.png}
+  \caption{Question 3}
+  
+\end{figure}
+
+
+
+
+\end{document}
