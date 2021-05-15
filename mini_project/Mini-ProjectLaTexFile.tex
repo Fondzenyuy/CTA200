@@ -1,0 +1,158 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\setlength{\parindent}{0em}
+\setlength{\parskip}{0.5em}
+
+
+\title{CTA200 2021 Mini Project}
+\author{TonyLouis Verberi Fondzenyuy}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section{}
+After running the notebooks(Part 1). I downloaded the FITS files for 9 Temperature maps from the PLANCK satellite website. I then used the healpy package to read the maps for given frequencies. Afterwards, I visualised the read maps using hp.mollview. Below are the 9 maps. For frequencies 217 Hz, 100 Hz, 857 Hz, 545 Hz, 030 Hz, 044 Hz, 143 Hz, 353 Hz and 070 Hz respectively.
+
+\begin{figure} 
+  \includegraphics[width=\textwidth]{Mini_project/Map1.png}
+   \caption{Fig:217 Hz }
+  \includegraphics[width=\textwidth]{Mini_project/Map2.png}
+   \caption{Fig:100 Hz }
+\end{figure}
+
+  \newpage
+  
+\begin{figure}
+    \includegraphics[width=\textwidth]{Mini_project/Map3.png}
+    \caption{Fig:857 Hz }
+    \includegraphics[width=\textwidth]{Mini_project/Map4.png}
+    \caption{Fig:545 Hz }
+\end{figure}
+
+\newpage
+
+
+\begin{figure}
+
+    \includegraphics[width=\textwidth]{Mini_project/Map5.png}
+    \caption{Fig:030 Hz }
+    \includegraphics[width=\textwidth]{Mini_project/Map6.png}
+    \caption{Fig:044 Hz }
+    
+\end{figure}
+
+\newpage
+  
+\begin{figure}
+
+    \includegraphics[width=\textwidth]{Mini_project/Map7.png}
+    \caption{Fig:143 Hz }
+    \includegraphics[width=\textwidth]{Mini_project/Map8.png}
+    \caption{Fig:353 Hz }
+    
+\end{figure}
+
+
+\newpage
+
+
+\begin{figure}
+    \includegraphics[width=\textwidth]{Mini_project/Map9.png}
+\end{figure}
+  
+  
+\newpage
+
+\section{}
+
+For each of the frequency maps, I downloaded a BEAMS file which could be extracted and plotted. Furthermore, a gaussian approximation had to be applied for the LFI beams using the given FWHM for the low frequency maps (070,030 and 044 Hz). Below are the visual representations of the extracted data.
+
+\newpage
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{Mini_project/Beam100.png}
+     \caption{Fig:HFI Beam 100 Hz }
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{Mini_project/Beam143.png}
+     \caption{Fig:HFI Beam 143 Hz }
+\end{figure}
+
+\newpage
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{Mini_project/Beam217.png}
+     \caption{Fig:HFI Beam 217 Hz }
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{Mini_project/Beam353.png}
+     \caption{Fig:HFI Beam 353 Hz }
+\end{figure}
+
+\newpage
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{Mini_project/Beam545.png}
+    \caption{Fig:HFI Beam 545 Hz }
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{Mini_project/Beam857.png}
+    \caption{Fig:HFI Beam 857 Hz}
+\end{figure}
+
+\newpage
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{Mini_project/Beam030.png}
+    \caption{Fig :LFI Beam 030 Hz }
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{Mini_project/Beam044.png}
+    \caption{Fig:LFI Beam 044 Hz }
+\end{figure}
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{Mini_project/Beam070.png}
+    \caption{Fig:LFI Beam 070 Hz }
+\end{figure}
+
+
+    
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
